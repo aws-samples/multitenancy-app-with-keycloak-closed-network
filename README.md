@@ -3,7 +3,7 @@
 Multi-tenancy strategies have the various isolation concepts like [silo](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/silo-isolation.html),
 [pool](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/pool-isolation.html) and [bridge](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/bridge-model.html) model.
 Depending on the requirements, the application may require a closed network environment, such as the government systems and high secure systems.
-This sample can deploy the multitenacy application including consumer enviroments on a closed network. This application isolation concept is like the bridge model. The web and app tier are shared, but the database tier as a silo model is deployed in each tenant. The web application including API created with [Nuxt](https://nuxt.com/) is deployed on [Amazon ECS](https://aws.amazon.com/ecs/?nc1=h_ls) as a container. Also, this application uses [Keycloak](https://www.keycloak.org/) deployed on Amazon ECS to authenticate the users with LDAP federation via [AWS PrivateLink](https://aws.amazon.com/privatelink/?nc1=h_ls).
+This sample can deploy the multi-tenancy application including consumer environments on a closed network. This application isolation concept is like the bridge model. The web and app tier are shared, but the database tier as a silo model is deployed in each tenant. The web application including API created with [Nuxt](https://nuxt.com/) is deployed on [Amazon ECS](https://aws.amazon.com/ecs/?nc1=h_ls) as a container. Also, this application uses [Keycloak](https://www.keycloak.org/) deployed on Amazon ECS to authenticate the users with LDAP federation via [AWS PrivateLink](https://aws.amazon.com/privatelink/?nc1=h_ls).
 
 ## Architecture
 
