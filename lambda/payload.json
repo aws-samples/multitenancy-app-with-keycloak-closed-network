@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "title": "aws",
+      "description": "This post describes what cluoud infrastructure is, and what is beneficial for users."
+    },
+    {
+      "title": "gcp",
+      "description": "This post describes what cluoud infrastructure is, and what is beneficial for users."
+    },
+    {
+      "title": "azure",
+      "description": "This post describes what cluoud infrastructure is, and what is beneficial for users."
+    }
+  ],
+  [
+    {
+      "title": "wine",
+      "description": "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol and carbon dioxide, releasing heat in the process. Different varieties of grapes and strains of yeasts are major factors in different styles of wine. These differences result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the grape's growing environment (terroir), and the wine production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines can be made by fermentation of other fruit crops such as plum, cherry, pomegranate, blueberry, currant and elderberry."
+    },
+    {
+      "title": "beer",
+      "description": "Beer is one of the oldest types of alcoholic drinks in the world,and the most widely consumed. It is the third most popular drink overall after potable water and tea. It is produced by the brewing and fermentation of starches, mainly derived from cereal grains—most commonly malted barley, though wheat, maize (corn), rice, and oats are also used. During the brewing process, fermentation of the starch sugars in the wort produces ethanol and carbonation in the resulting beer.[6] Most modern beer is brewed with hops, which add bitterness and other flavours and act as a natural preservative and stabilising agent. Other flavouring agents such as gruit, herbs, or fruits may be included or used instead of hops. In commercial brewing, the natural carbonation effect is often removed during processing and replaced with forced carbonation."
+    },
+    {
+      "title": "whisky",
+      "description": "Whisky or whiskey is a type of liquor made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn, rye, and wheat. Whisky is typically aged in wooden casks, which are typically made of charred white oak. Uncharred white oak casks previously used for the aging of port, rum or sherry are also sometimes used.Whisky is a strictly regulated spirit worldwide with many classes and types. The typical unifying characteristics of the different classes and types are the fermentation of grains, distillation, and aging in wooden barrels."
+    },
+    {
+      "title": "sake",
+      "description": "Sake or saké (酒, sake), also referred to as Japanese rice wine,[6] is an alcoholic beverage of Japanese origin made by fermenting rice that has been polished to remove the bran. Despite the name Japanese rice wine, sake, and indeed any East Asian rice wine (such as huangjiu and cheongju), is produced by a brewing process more akin to that of beer, where starch is converted into sugars that ferment into alcohol, whereas in wine, alcohol is produced by fermenting sugar that is naturally present in fruit, typically grapes.The brewing process for sake differs from the process for beer, where the conversion from starch to sugar and then from sugar to alcohol occurs in two distinct steps. Like other rice wines, when sake is brewed, these conversions occur simultaneously. The alcohol content differs between sake, wine, and beer; while most beer contains 3–9% ABV, wine generally contains 9–16% ABV, and undiluted sake contains 18–20% ABV (although this is often lowered to about 15% by diluting with water before bottling)."
+    },
+    {
+      "title": "Cider",
+      "description": "Cider (/ˈsaɪdər/ SY-dər) is an alcoholic beverage made from the fermented juice of apples.Cider is widely available in the United Kingdom (particularly in the West Country) and the Republic of Ireland. The UK has the world's highest per capita consumption, as well as the largest cider-producing companies. Ciders from the South West of England are generally higher in alcoholic content. Cider is also popular in many Commonwealth countries, such as India, Canada, Australia, and New Zealand.As well as the UK and its former colonies, cider is popular in Portugal (mainly in Minho and Madeira), France (particularly Normandy and Brittany), Friuli, and northern Spain (specifically Asturias). Germany also has its own types of cider with Rhineland-Palatinate and Hesse producing a particularly tart version known as Apfelwein. In the U.S., varieties of fermented cider are often called hard cider to distinguish alcoholic cider from non-alcoholic apple cider or sweet cider, also made from apples. In Canada, cider cannot contain less than 2.5% or over 13% absolute alcohol by volume."
+    }
+  ],
+  [
+    {
+      "title": "シャトー・ラフィット・ロスチャイルド",
+      "description": "1855年のメドックの格付け当時、最も取引価格が高かったのがシャトー・ラフィット・ロスチャイルド。いわば1級の首位の座に輝いたと言えるでしょう。今でも五大シャトーの筆頭シャトーと呼ばれるのはそのためです。ラフィットの特徴は、気品ある味わい。長期熟成を経たものはボルドーの真髄ともいえる究極のエレガンスを体現していると称されます。その昔、ヴェルサイユ宮殿で毎夜開催される晩餐会に振る舞われ、ルイ15世が嗜んでいるワインということから、「王のワイン」とも呼ばれていたそう。結果、フランスの貴族のステータスシンボルとなることで名声を高め、同時にメドック地区の品質の高さを伝える結果にもなったのです。"
+    },
+    {
+      "title": "シャトー・マルゴー",
+      "description": "1855年の格付けの際、20点満点のテイスティングが行われ唯一満点評価を得たのがシャトー・マルゴー。名実ともにトップクオリティのシャトーです。五大シャトーの中で特に高貴でエレガントと称され、昔も今も多くのワインラヴァーを魅了し続けています。約30年にわたりシャトーの総支配人を務めた故ポール・ポンタリエ氏は、「ベルベットの手袋の中の鋼鉄の拳」と表現したそう。マルゴーが目指すエレガントは強さを秘めたしなやかさであることをこの言葉が表しています。マルゴーは、イギリス初代首相ロバート・ウォルが愛したことでも有名です。そして文豪ヘミングウェイはあまりにもマルゴーを愛し過ぎてその名を娘につけるなど、各界の著名人にも寵愛されていました。"
+    },
+    {
+      "title": "シャトー・ラトゥール",
+      "description": "塔のシンボルが印象的なシャトー。これは14世紀中頃に要塞として建設されたものだそう。18世紀初頭、ニコラ・アレキサンドル・ド・セギュール侯爵が所有者となった頃から名声を高めていき、彼の死後もその高い名声は維持され続け、格付けでも1級の称号を勝ち得ました。スタイルは「常にハイレベル、力強く、荘厳」。完璧なまでの品質主義により、常に進化を続けています。近年は、ボルドーの多くの一流シャトーが行っているプリムール販売から撤退。「最高の飲み頃で味わってほしい」ため飲み頃を迎えたと判断したヴィンテージからリリースされるようになりました。"
+    },
+    {
+      "title": "シャトー・オー・ブリオン",
+      "description": "シャトー・オー・ブリオンは、メドック格付けで唯一、グラーヴ地区のペサック・レオニャンに位置するシャトーです。メドック地区の格付けでありながら、当時から大変有名であったために、格付けに加わりました。有名なエピソードの一つに、フランスがナポレオン戦争で敗れた後のウィーン会議で、毎夜豪華な食事とともにオー・ブリオンが各国の代表者に振る舞われた、という話があります。このことがきっかけで各国の代表者たちの態度が軟化し、フランスが領土をほとんど失わずに済んだとさえ言われているのです。フランスの救世主として称えられました。そんなオー・ブリオンは、きめ細かい質感と複雑な香りに加え、しっかりとした骨格を備える雄大なスタイル。カベルネ・ソーヴィニョンより、メルロの比率が高くなるヴィンテージがあるなど、メドック地区とはまた違った個性を持つ個性的な1本です。"
+    },
+    {
+      "title": "シャトー・ムートン・ロスチャイルド",
+      "description": "1855年の格付けでは2級の格付けだったものの、その後1973年に1級に昇格を遂げました。2級に格付けされた当時、ロスチャイルド男爵は「1級になることはできないが2級には甘んじることはできない。ムートンはムートンなり」と言ったそう。その後、4世代に渡る努力の末、格付けから118年後の1973年に1級昇格を果たします。100年以上も変更されることのなかったメドック格付けの不問律を破ったのです。昇格の際も「我々は1級になった、かつては2級だった、しかしムートンは昔も今も変わっていない」という有名な言葉を残しています。そして1945年以降、ダリやシャガール、ミロをはじめとする現代アーティストなどの作品をワインのエチケットに起用。毎年異なるエチケットはコレクターからも人気を博しています。"
+    }
+  ]
+]

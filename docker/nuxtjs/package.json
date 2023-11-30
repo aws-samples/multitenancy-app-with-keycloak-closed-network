@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "@types/pg": "^8.10.2",
+    "nuxt": "^3.6.0",
+    "nuxt-quasar-ui": "^2.0.3",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.370.0",
+    "@aws-sdk/client-ssm": "^3.363.0",
+    "@aws-sdk/rds-signer": "^3.363.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@quasar/extras": "^1.16.4",
+    "fs": "^0.0.1-security",
+    "keycloak-js": "^21.1.1",
+    "kysely": "^0.26.1",
+    "lodash": "^4.17.21",
+    "pg": "^8.11.2",
+    "pinia": "^2.1.4",
+    "quasar": "^2.12.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

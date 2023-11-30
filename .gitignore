@@ -1,0 +1,37 @@
+*.js
+*.d.ts
+node_modules
+.vscode/
+.eslintcache
+docs/.$*
+
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+cdk-*-outputs.json
+.DS_Store
+.env
+
+#Vue
+docker/vue/vue-project/node_modules
+# docker/vue/vue-project/.quasar
+docker/vue/vue-project/dist
+docker/vue/vue-project/npm-debug.log*
+docker/vue/vue-project/.idea
+docker/vue/vue-project/*.suo
+docker/vue/vue-project/*.ntvs*
+docker/vue/vue-project/*.njsproj
+docker/vue/vue-project/*.sln
+
+# Negate
+!.eslintrc.js
+!jest.config.js
+!quasar.config.js
+!postcss.config.js
+!docker/vue/vue-project/src/stores/index.js
+!docker/vue/vue-project/src/stores/store-flag.d.ts
+
+# Lambda response file
+response.json

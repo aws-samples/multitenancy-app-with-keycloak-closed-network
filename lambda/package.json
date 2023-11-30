@@ -1,0 +1,24 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.363.0",
+    "@aws-sdk/rds-signer": "^3.363.0",
+    "kysely": "^0.26.0",
+    "lodash": "^4.17.21",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/lodash-es": "^4.17.7",
+    "typescript": "^5.1.6"
+  }
+}
