@@ -27,11 +27,11 @@ This enviroment creates single instance for Active directory on each Amazon VPC.
 - Install Docker Desktop
 - Install Node.js >= `18.18.2`
 - Createing and importing the following certificates in AWS Certificate Manager (ACM). Please see [Importing certificates into AWS ACM](https://docs.aws.amazon.com/acm/latest/userguide/import-certificate.html) if you need.
-  - Keycloak (`keyclock.multitenancy.com`)
-  - Keycloak for Admin console(`admin.keyclock.multitenancy.com`)
+  - Keycloak (`keycloak.multitenancy.com`)
+  - Keycloak for Admin console(`admin.keycloak.multitenancy.com`)
   - Web application
-    - Shared NLB (`*.nuxt3.keyclock.multitenancy.com`)
-    - Dedicated NLB (`c-corp.keyclock.multitenancy.com`)
+    - Shared NLB (`*.nuxt3.keycloak.multitenancy.com`)
+    - Dedicated NLB (`c-corp.keycloak.multitenancy.com`)
 
 ## Setup
 
@@ -93,17 +93,17 @@ To invoke the above lambda command, you can create the `posts` table and insert 
 Register the certificates in each instance as follows
 
 - `keycloak-manage-instance`
-  - Keycloak (`keyclock.multitenancy.com`)
-  - Keycloak for Admin console(`admin.keyclock.multitenancy.com`)
+  - Keycloak (`keycloak.multitenancy.com`)
+  - Keycloak for Admin console(`admin.keycloak.multitenancy.com`)
 - `a-corp-ad-demo`
-  - Keycloak (`keyclock.multitenancy.com`)
-  - Shared NLB (`*.nuxt3.keyclock.multitenancy.com`)
+  - Keycloak (`keycloak.multitenancy.com`)
+  - Shared NLB (`*.nuxt3.keycloak.multitenancy.com`)
 - `b-corp-ad-demo`
-  - Keycloak (`keyclock.multitenancy.com`)
-  - Shared NLB (`*.nuxt3.keyclock.multitenancy.com`)
+  - Keycloak (`keycloak.multitenancy.com`)
+  - Shared NLB (`*.nuxt3.keycloak.multitenancy.com`)
 - `c-corp-ad-demo`
-  - Keycloak (`keyclock.multitenancy.com`)
-  - Dedicated NLB (`c-corp.keyclock.multitenancy.com`)
+  - Keycloak (`keycloak.multitenancy.com`)
+  - Dedicated NLB (`c-corp.keycloak.multitenancy.com`)
 
 ## AD setup in each instance
 
