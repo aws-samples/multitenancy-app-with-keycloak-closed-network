@@ -27,6 +27,7 @@ export default defineNuxtConfig({
   },
   imports: { dirs: ['stores'] },
   runtimeConfig: {
+    awsRegion: '',
     public: {
       authUrl: 'https://keycloak.multitenancy.com',
       stripeKey: '',

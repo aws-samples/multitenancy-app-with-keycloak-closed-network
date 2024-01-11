@@ -22,10 +22,10 @@ interface SecretParams {
   username: string;
   host?: string;
 }
+const runtimeConfig = useRuntimeConfig();
 
 export default defineEventHandler(async (event) => {
-  console.log(event.context.subdomain);
-  const region = 'ap-northeast-1';
+  const region = runtimeConfig.awsRegion;
   const ssmClient = new SSMClient({ region: region });
   const secretsClient = new SecretsManagerClient({ region: region });
   const ssmInput = {
