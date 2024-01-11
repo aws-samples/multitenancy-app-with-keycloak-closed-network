@@ -241,6 +241,12 @@ export class EcsApp extends Construct {
         ],
         true
       );
+    } else {
+      containerEnv = {
+        environment: {
+          ['NUXT_AWS_REGION']: Stack.of(this).region,
+        },
+      };
     }
 
     const container = this.fargateTaskDefinition.addContainer('container', {
