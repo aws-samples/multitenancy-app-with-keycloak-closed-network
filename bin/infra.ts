@@ -386,6 +386,7 @@ cdk.Aspects.of(app).add(new AwsSolutionsChecks({ verbose: true }));
 new InfraStack(app, `${devConfig.base.alias}-${stage}-${context.appName}-InfraStack`, {
   env: config(baseConfig),
   tags: tags,
+  description: 'Infrastack for multitenancy application (uksb-1tupboc59).',
   synthesizer: new cdk.DefaultStackSynthesizer({
     qualifier: `${devConfig.base.alias.slice(0, 5)}${stage.slice(0, 5)}`,
   }),
