@@ -9,7 +9,7 @@ This sample can deploy the multi-tenancy application including consumer environm
 
 ![architecture](docs/images/architecture-diagram.png)
 
-### Mulite-tenancy enviroment
+### Mulit-tenancy enviroment
 
 This enviroment creates the web application and Keycloak as the authentication. Both applications are deployed on Amazon ECS as a container, and these databases are deployed on [Amazon Aurora Serverless v2](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html). Each consumer environment can access to these applicaton via Amazon PrivateLink and [Network Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html)(NLB). In case of enabling dedicated in a consumer enrivoment(Consumer C environment enables dedicated as default), the consumer enviroment accesses to the web application via the dedicated NLB (Other enviroments use the shared NLB).
 
